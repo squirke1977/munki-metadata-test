@@ -7,14 +7,13 @@
 		<string>testing</string>
 	</array>
 	<key>included_manifests</key>
-	<array>
-	</array>
+	<array/>
 	<key>managed_installs</key>
 	<array>
+		<string>Firefox</string>
 		<string>GoogleChrome</string>
 	</array>
 	<key>managed_uninstalls</key>
-	<array>
-	</array>
+	<array/>
 </dict>
 </plist>
