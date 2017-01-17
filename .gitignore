@@ -1,0 +1,6 @@
+#Git Ignore file for my Munki/Git test
+#Ignore disk images...
+*.dmg
+#Ignore Package files
+*.pkg
+*.mpkg

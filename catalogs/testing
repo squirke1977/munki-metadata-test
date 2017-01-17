@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
+		<string>144acfbf16e94a6b2d2653b9bf2fafd1059e1f49e4b4ec8c47097451dc80c6f9</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-55.0.2883.95.dmg</string>
+		<key>installer_item_size</key>
+		<integer>61989</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>55.0.2883.95</string>
+				<key>CFBundleVersion</key>
+				<string>2883.95</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>55.0.2883.95</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Adobe Reader.app</string>
+			<string>Adobe Acrobat Pro.app</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.</string>
+		<key>display_name</key>
+		<string>Adobe Reader</string>
+		<key>installed_size</key>
+		<integer>414943</integer>
+		<key>installer_item_hash</key>
+		<string>6aeb93bdd0da7662721e8a81493aef8bd5610d7386ac359bb35f089fbe0ee391</string>
+		<key>installer_item_location</key>
+		<string>apps/Adobe/AdobeReader-11.0.10.dmg</string>
+		<key>installer_item_size</key>
+		<integer>104870</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.Reader</string>
+				<key>CFBundleName</key>
+				<string>Adobe Reader</string>
+				<key>CFBundleShortVersionString</key>
+				<string>11.0.10</string>
+				<key>CFBundleVersion</key>
+				<string>11.0.10</string>
+				<key>minosversion</key>
+				<string>10.4.3</string>
+				<key>path</key>
+				<string>/Applications/Adobe Reader.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.4</string>
+		<key>name</key>
+		<string>AdobeReader</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/sh
+if [ -e "/Applications/Adobe Reader.app" ]; then
+rm -r "/Applications/Adobe Reader.app"
+fi
+exit 0
+            </string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>405567</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.reader.11010.reader.app.pkg.en_US</string>
+				<key>version</key>
+				<string>11.0.10</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1148</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.reader.11010.reader.browser.pkg.en_US</string>
+				<key>version</key>
+				<string>11.0.10</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>8228</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.reader.11010.reader.appsupport.pkg.en_US</string>
+				<key>version</key>
+				<string>11.0.10</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>11.0.10</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>/Applications/Dropbox.app/Contents/MacOS/Dropbox</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>f8416cd713c195c976ab44a8de56886f40afaacf39c964ec9908edcf1b9d69c1</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-17.4.34.dmg</string>
+		<key>installer_item_size</key>
+		<integer>93335</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>17.4.34</string>
+				<key>CFBundleVersion</key>
+				<string>17.4.34</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH" "$HELPER_DST_DIR"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>17.4.34</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>b41ece47d0ad891d8b9307c0f27b50d0daaaaa7495dfa007aa12968a8cc68a6e</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-50.1.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>84288</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>50.1.0</string>
+				<key>CFBundleVersion</key>
+				<string>5016.12.8</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>50.1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>TextWrangler is the powerful general purpose text editor, and Unix and server administrator's tool. TextWrangler is the "little brother" to BBEdit, a leading professional HTML and text editor.</string>
+		<key>display_name</key>
+		<string>TextWrangler</string>
+		<key>installer_item_hash</key>
+		<string>046aff569123d39782981f52d918a1b51f18caefca4ac0436dcc193edfd96c08</string>
+		<key>installer_item_location</key>
+		<string>apps/TextWrangler/TextWrangler-5.5.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>9928</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.barebones.textwrangler</string>
+				<key>CFBundleName</key>
+				<string>TextWrangler</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.5.2</string>
+				<key>CFBundleVersion</key>
+				<string>397016</string>
+				<key>minosversion</key>
+				<string>10.9.5</string>
+				<key>path</key>
+				<string>/Applications/TextWrangler.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>TextWrangler.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.5</string>
+		<key>name</key>
+		<string>TextWrangler</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# Copy command-line tool resources out of .app bundle
+CMD_TOOL_DIR=/usr/local/bin
+CMD_MAN_DIR=/usr/local/share/man/man1
+HELPER_BIN_SRC_DIR=/Applications/TextWrangler.app/Contents/Helpers
+HELPER_MAN_SRC_DIR=/Applications/TextWrangler.app/Contents/Resources
+LN=/bin/ln
+
+# create dirs if they don't already exist
+for DIR in "$CMD_TOOL_DIR" "$CMD_MAN_DIR"; do
+    [ -d "$DIR" ] || mkdir -p -m 775 "$DIR"
+done
+# make symlinks to binaries and manpages
+for TOOL in edit twdiff twfind; do
+    "$LN" -sf "$HELPER_BIN_SRC_DIR/$TOOL" "$CMD_TOOL_DIR/$TOOL"
+    "$LN" -sf "$HELPER_MAN_SRC_DIR/$TOOL.1" "$CMD_MAN_DIR/$TOOL.1"
+done
+            </string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.5.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>19899</integer>
+		<key>installer_item_hash</key>
+		<string>54d7f2ff29fb2271064d25992d4595df81b9227a1a2e7db3caa130404d2c56c0</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-24.0.0.194.dmg</string>
+		<key>installer_item_size</key>
+		<integer>18505</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>19899</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>24.0.0.194</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>24.0.0.194</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Java SE Runtime Environment 7 enables support for running Java-powered applets and applications.</string>
+		<key>display_name</key>
+		<string>Oracle Java 7</string>
+		<key>installed_size</key>
+		<integer>145560</integer>
+		<key>installer_item_hash</key>
+		<string>773131fa4d9047e67c370f6ce4c5a31e5eb3120b89fc7b058ae8660d2455c6d4</string>
+		<key>installer_item_location</key>
+		<string>plugins/Java/OracleJava7-1.7.79.15.dmg</string>
+		<key>installer_item_size</key>
+		<integer>49815</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>1.7.0_79</string>
+				<key>CFBundleVersion</key>
+				<string>10.79.2.15</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/deploy/JavaControlPanel.prefPane</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>OracleJava7</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>145560</integer>
+				<key>packageid</key>
+				<string>com.oracle.jre</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+            # From http://www.java.com/en/download/help/mac_uninstall_java.xml
+            rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+            pkgutil --forget com.oracle.jre
+            </string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.7.79.15</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
+		<key>display_name</key>
+		<string>Oracle Java 8</string>
+		<key>installed_size</key>
+		<integer>175208</integer>
+		<key>installer_item_hash</key>
+		<string>ba1a83b96daaf10015b212f5221e30e5d1ef4f6753a011a008cfd188e032e06e</string>
+		<key>installer_item_location</key>
+		<string>plugins/Java/OracleJava8-1.8.111.14.pkg</string>
+		<key>installer_item_size</key>
+		<integer>61925</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>1.8.0_111</string>
+				<key>CFBundleVersion</key>
+				<string>11.111.2.14</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/deploy/JavaControlPanel.prefPane</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>OracleJava8</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>175208</integer>
+				<key>packageid</key>
+				<string>com.oracle.jre</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+            # From http://www.java.com/en/download/help/mac_uninstall_java.xml
+            rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+            pkgutil --forget com.oracle.jre
+            </string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.8.111.14</string>
+	</dict>
+</array>
+</plist>
