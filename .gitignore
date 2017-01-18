@@ -4,3 +4,6 @@
 #Ignore Package files
 *.pkg
 *.mpkg
+
+#Ignore the whole catalogs folder
+/catalogs/
