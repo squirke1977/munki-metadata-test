@@ -10,6 +10,7 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
+		<string>Dropbox</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
