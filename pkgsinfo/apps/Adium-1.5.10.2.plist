@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>autopkg-git</string>
+		<key>creation_date</key>
+		<date>2017-01-23T09:13:40Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.12.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Adium is a free instant messaging application for Mac OS X that can connect to AIM, MSN, Jabber, Yahoo, and more.</string>
+	<key>display_name</key>
+	<string>Adium</string>
+	<key>installer_item_hash</key>
+	<string>ea1a1016a383c59198c43f37576edb0045e391f46ca5402b0f6365e9d5d7f395</string>
+	<key>installer_item_location</key>
+	<string>apps/Adium-1.5.10.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>24735</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adiumX.adiumX</string>
+			<key>CFBundleName</key>
+			<string>Adium</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.5.10.2</string>
+			<key>CFBundleVersion</key>
+			<string>1.5.10.2</string>
+			<key>minosversion</key>
+			<string>10.6.8</string>
+			<key>path</key>
+			<string>/Applications/Adium.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Adium.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.8</string>
+	<key>name</key>
+	<string>Adium</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.5.10.2</string>
+</dict>
+</plist>
