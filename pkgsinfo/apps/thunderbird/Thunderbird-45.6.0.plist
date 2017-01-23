@@ -18,6 +18,10 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>development</string>
+		<string>Office catalog</string>
+		<string>steve_catalog</string>
+		<string>Untitled Catalog</string>
 	</array>
 	<key>description</key>
 	<string>Mozilla Thunderbird is a free and open source mail client.</string>
