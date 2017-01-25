@@ -18,6 +18,13 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>CleverPipeline Catalog</string>
+		<string>development</string>
+		<string>Go Catalog</string>
+		<string>I can't believe it's not catalog</string>
+		<string>Office catalog</string>
+		<string>steve_catalog</string>
+		<string>Untitled Catalog</string>
 	</array>
 	<key>description</key>
 	<string>Cecilia is an audio signal processing environment aimed at sound designers. Cecilia mangles sound in ways unheard of. Cecilia lets you create your own GUI using a simple syntax. Cecilia comes with many original built-in modules and presets for sound effects and synthesis.</string>
