@@ -67,7 +67,7 @@
 	<key>name</key>
 	<string>TextWrangler</string>
 	<key>notes</key>
-	<string>Just playing with Munki Admin - :)</string>
+	<string>Just playing with Munki Admin - :) What could possibly go wrong</string>
 	<key>postinstall_script</key>
 	<string>#!/bin/sh
 # Copy command-line tool resources out of .app bundle
