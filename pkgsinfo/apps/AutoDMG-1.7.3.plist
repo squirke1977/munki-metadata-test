@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>autopkg-git</string>
+		<key>creation_date</key>
+		<date>2017-01-26T07:59:43Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.12.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Create deployable system images from OS X installer.</string>
+	<key>installer_item_hash</key>
+	<string>73dac1837902cad7779d6fa64c8ebad4da808b00475c3ebd211505558ecb61d9</string>
+	<key>installer_item_location</key>
+	<string>apps/AutoDMG-1.7.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1060</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>se.gu.it.AutoDMG</string>
+			<key>CFBundleName</key>
+			<string>AutoDMG</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.7.3</string>
+			<key>CFBundleVersion</key>
+			<string>508</string>
+			<key>minosversion</key>
+			<string>10.9</string>
+			<key>path</key>
+			<string>/Applications/AutoDMG.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>AutoDMG.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.9</string>
+	<key>name</key>
+	<string>AutoDMG</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.7.3</string>
+</dict>
+</plist>
