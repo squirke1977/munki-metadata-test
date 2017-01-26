@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>autopkg-git</string>
+		<key>creation_date</key>
+		<date>2017-01-26T10:03:32Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.12.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>ClamXav</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Security</string>
+	<key>description</key>
+	<string>ClamXav is a free virus scanner for Mac OS X. It uses the very popular ClamAV open source antivirus engine as a back end and has the ability to detect both Windows and Mac threats.</string>
+	<key>developer</key>
+	<string>Cisco Systems, Inc.</string>
+	<key>installer_item_hash</key>
+	<string>24314c719c703c5173fab636535eab285f624b7fd3a5c7c24f2e69bb7656b53a</string>
+	<key>installer_item_location</key>
+	<string>utilities/ClamXav-2.11.dmg</string>
+	<key>installer_item_size</key>
+	<integer>22472</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>uk.co.canimaansoftware.clamxav</string>
+			<key>CFBundleName</key>
+			<string>ClamXav</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.11</string>
+			<key>CFBundleVersion</key>
+			<string>2835</string>
+			<key>minosversion</key>
+			<string>10.6.8</string>
+			<key>path</key>
+			<string>/Applications/ClamXav.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>ClamXav.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.0</string>
+	<key>name</key>
+	<string>ClamXav</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+
+installer \
+	-target / \
+	-pkg /Applications/ClamXav.app/Contents/Resources/clamavEngineInstaller.pkg
+
+exit $?
+</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.11</string>
+</dict>
+</plist>
