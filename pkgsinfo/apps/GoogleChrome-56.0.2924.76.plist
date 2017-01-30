@@ -18,6 +18,8 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>Go Catalog</string>
+		<string>Untitled Catalog</string>
 	</array>
 	<key>description</key>
 	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -65,6 +67,8 @@
 	<string>10.9.0</string>
 	<key>name</key>
 	<string>GoogleChrome</string>
+	<key>notes</key>
+	<string>HELLO PRANESH from Steve….</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
