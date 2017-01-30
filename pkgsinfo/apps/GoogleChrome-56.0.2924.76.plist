@@ -22,7 +22,9 @@
 		<string>Untitled Catalog</string>
 	</array>
 	<key>description</key>
-	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.
+
+Firefox is way better than Chrome</string>
 	<key>display_name</key>
 	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
@@ -68,7 +70,9 @@
 	<key>name</key>
 	<string>GoogleChrome</string>
 	<key>notes</key>
-	<string>HELLO PRANESH from Steve….</string>
+	<string>HELLO PRANESH from Steve….
+
+HELLO WORLD!</string>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
