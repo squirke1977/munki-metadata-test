@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>autopkg-git</string>
+		<key>creation_date</key>
+		<date>2017-02-11T14:54:42Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.12.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Project Management</string>
+	<key>description</key>
+	<string>ProjectLibre is an open source project management software. It intends to be a complete desktop replacement for Microsoft Project. ProjectLibre runs on the Java Platform, allowing it to run on Linux, Mac OS or Windows operating systems.</string>
+	<key>developer</key>
+	<string>Geekpolis</string>
+	<key>installer_item_hash</key>
+	<string>ca165c27bea9f160cd069e464c3b8a1a3d3bc6f79876d221fb4a88165e0941e7</string>
+	<key>installer_item_location</key>
+	<string>apps/ProjectLibre-1.7.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>69475</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.projectlibre.pm.Desktop</string>
+			<key>CFBundleName</key>
+			<string>ProjectLibre</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.7.0</string>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>path</key>
+			<string>/Applications/ProjectLibre.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>ProjectLibre.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ProjectLibre</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.7.0</string>
+</dict>
+</plist>
