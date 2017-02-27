@@ -71,6 +71,8 @@
 	<string>10.6.0</string>
 	<key>name</key>
 	<string>ClamXav</string>
+	<key>notes</key>
+	<string>Hah - no-one needs AV on Mac! ;)</string>
 	<key>postinstall_script</key>
 	<string>#!/bin/sh
 
