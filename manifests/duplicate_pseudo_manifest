@@ -9,6 +9,7 @@
 	<key>managed_installs</key>
 	<array>
 		<string>AutoDMG</string>
+		<string>Google Chrome</string>
 	</array>
 </dict>
 </plist>
