@@ -16,6 +16,7 @@
 	<key>managed_uninstalls</key>
 	<array>
 		<string>Cyberduck</string>
+		<string>ClamAV</string>
 	</array>
 </dict>
 </plist>
