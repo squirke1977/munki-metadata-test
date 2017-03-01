@@ -4,23 +4,17 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>development</string>
-		<string>testing</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>AdobeReader</string>
-		<string>AdobeReader</string>
-		<string>AutoDMG</string>
-		<string>Cecilia</string>
-		<string>Cecilia</string>
-		<string>Cyberduck</string>
 		<string>Dropbox</string>
 		<string>Firefox</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
-		<string>GoogleEarth</string>
 	</array>
 </dict>
 </plist>
