@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>com.thoughtworks.fuze.rooms.configuration</string>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>autopkg-git</string>
+		<key>creation_date</key>
+		<date>2017-03-20T14:48:34Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.12.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>fuze room configuration</string>
+	<key>description</key>
+	<string></string>
+	<key>developer</key>
+	<string>SQ</string>
+	<key>display_name</key>
+	<string>Settings for Brazil-Porto Alegre-Beer Fuze Room</string>
+	<key>installer_item_hash</key>
+	<string>1aede5eb0d0f26dcf677b1b7524aa1c811244699bf0e2d1806b18915d4806f2e</string>
+	<key>installer_item_location</key>
+	<string>fuze room profiles/Brazil-Porto Alegre-Beer-1.0.mobileconfig</string>
+	<key>installer_item_size</key>
+	<integer>1</integer>
+	<key>installer_type</key>
+	<string>profile</string>
+	<key>minimum_munki_version</key>
+	<string>2.2</string>
+	<key>minimum_os_version</key>
+	<string>10.7</string>
+	<key>name</key>
+	<string>Brazil-Porto Alegre-Beer.mobileconfig</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_profile</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
